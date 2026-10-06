@@ -1,0 +1,6 @@
+{
+  "name": "tool-tape",
+  "owner": { "name": "tool-tape contributors" },
+  "description": "Claude Code mod that draws the current turn's tool calls as a colored tape",
+  "plugins": [{ "name": "tool-tape", "source": "./" }]
+}

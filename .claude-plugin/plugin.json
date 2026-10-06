@@ -1,0 +1,16 @@
+{
+  "name": "tool-tape",
+  "version": "0.1.0",
+  "description": "Shows each tool call of the current turn as a colored cell above the Claude Code prompt",
+  "license": "MIT",
+  "keywords": ["mod", "ui", "tool-calls"],
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Label language: auto follows LC_ALL / LC_MESSAGES / LANG",
+      "options": ["auto", "en", "ja"],
+      "default": "auto"
+    }
+  }
+}
